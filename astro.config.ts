@@ -1,29 +1,29 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
+import path from 'path'
+import { fileURLToPath } from 'url'
 
-import { defineConfig } from 'astro/config';
+import { defineConfig } from 'astro/config'
 
-import mdx from '@astrojs/mdx';
-import partytown from '@astrojs/partytown';
-import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
-import type { AstroIntegration } from 'astro';
-import compress from 'astro-compress';
-import icon from 'astro-icon';
+import mdx from '@astrojs/mdx'
+import partytown from '@astrojs/partytown'
+import sitemap from '@astrojs/sitemap'
+import tailwind from '@astrojs/tailwind'
+import type { AstroIntegration } from 'astro'
+import compress from 'astro-compress'
+import icon from 'astro-icon'
 
-import astrowind from './vendor/integration';
+import astrowind from './vendor/integration'
 
-import { lazyImagesRehypePlugin, readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
+import { lazyImagesRehypePlugin, readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-const hasExternalScripts = false;
+const hasExternalScripts = false
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
-  hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
+  hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : []
 
 export default defineConfig({
   output: 'static',
-  base: '/site',
+  base: '/',
 
   integrations: [
     tailwind({
@@ -94,4 +94,4 @@ export default defineConfig({
       },
     },
   },
-});
+})
