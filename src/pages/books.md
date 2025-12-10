@@ -5,15 +5,16 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Открытые материалы
 
-- [Лекции по основам геоинформатики / Т.Е. Самсонов](https://tsamsonov.github.io/gis-course/)
-- [Практикум по геоинформатике в QGIS / А.Л. Энтин, Т.Е. Самсонов, А.М. Карпачевский](https://aentin.github.io/qgis-course/)
-- [Практикум по геоинформатике в ArcGIS / Т.Е. Самсонов](https://tsamsonov.github.io/arcgis-course/)
 - [Визуализация и анализ географических данных на языке R / Т.Е. Самсонов](https://tsamsonov.github.io/r-geo-course/)
-- [Пространственная статистика на языке R / Т.Е. Самсонов](https://tsamsonov.github.io/r-spatstat-course)
-- [Основы дистанционного зондирования и фотограмметрии / А.М. Карпачевский](https://iowq750.github.io/Remote_Sensing_Photogrammetry/)
-- [Топография с основами картографии / А.М. Карпачевский](https://iowq750.github.io/Topography/)
-- [Картография: практикум в QGIS / А.М. Карпачевский](https://iowq750.github.io/Cartography/)
 - [Дешифрирование аэрокосмических снимков: учебник / Е.А. Балдина, И.А. Лабутина. – 2-е изд. – М.: «КДУ», «Добросвет», 2021. – 269 с.](https://bookonlime.ru/node/6333)
+- [Картография: практикум в QGIS / А.М. Карпачевский](https://iowq750.github.io/Cartography/)
+- [Лекции по основам геоинформатики / Т.Е. Самсонов](https://tsamsonov.github.io/gis-course/)
+- [Основы дистанционного зондирования и фотограмметрии / А.М. Карпачевский](https://iowq750.github.io/Remote_Sensing_Photogrammetry/)
+- [Практикум по геоинформатике в ArcGIS / Т.Е. Самсонов](https://tsamsonov.github.io/arcgis-course/)
+- [Практикум по геоинформатике в QGIS / А.Л. Энтин, Т.Е. Самсонов, А.М. Карпачевский](https://aentin.github.io/qgis-course/)
+- [Пространственная статистика на языке R / Т.Е. Самсонов](https://tsamsonov.github.io/r-spatstat-course)
+- [Радиолокационные данные в географических исследованиях и картографировании / Е.А. Балдина, К.А. Трошко](https://cartomsu.ru/radar/)
+- [Топография с основами картографии / А.М. Карпачевский](https://iowq750.github.io/Topography/)
 - [Учебное пособие по курсу «Автоматизированная обработка пространственных данных» : учебное пособие / П.Е. Каргашин, А.М. Карпачевский.– М.: «КДУ», «Добросвет», 2022. – 103 с.](https://bookonlime.ru/node/43915)
 
 ## Печатные издания
