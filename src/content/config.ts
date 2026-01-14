@@ -101,19 +101,24 @@ const goodsCollection = defineCollection({
 
 const telegramCollection = defineCollection({
   loader: async () => {
-    const response = await fetch('https://api.topographia.ru/tgapi/json')
-    const data = await response.json()
+    try {
+      const response = await fetch('https://api.topographia.ru/tgapi/json')
+      const data = await response.json()
 
-    const messages = data.messages
-      .filter((m) => m.message)
-      .map((m) => ({
-        id: String(m.id),
-        date: new Date(m.date * 1000),
-        message: m.message,
-        ...(m.media?.photo && { photo: `https://api.topographia.ru/tgapi/media/${m.id}/preview` }),
-      }))
+      const messages = data.messages
+        .filter((m) => m.message)
+        .map((m) => ({
+          id: String(m.id),
+          date: new Date(m.date * 1000),
+          message: m.message,
+          ...(m.media?.photo && { photo: `https://api.topographia.ru/tgapi/media/${m.id}/preview` }),
+        }))
 
-    return messages
+      return messages
+    } catch (error) {
+      console.error('An error occurred during fetch:', error)
+      // Handle the error gracefully
+    }
   },
   schema: z.object({
     id: z.string(),
