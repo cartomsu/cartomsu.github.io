@@ -17,14 +17,19 @@ subtitle: курс для факультета почвоведения
 
 [Бланк задания](https://disk.yandex.ru/i/UrzUS6kVB7vwgg)
 
+[Методичка](https://disk.yandex.ru/i/263m9vtJmn5H1w)
+
 ### Номенклатура
 
+[Бланк задания](https://disk.yandex.ru/i/x9nfy-0O64IMrA)
+
+[Методичка](https://disk.yandex.ru/i/QS4oTTpeehIhPw)
 
 ### Рельеф
 
-[Методичка](https://disk.yandex.ru/i/a1AuSvI1d2ejQQ)
-
 [Бланк](https://disk.yandex.ru/i/Z41V9YhjwuN5lA)
+
+[Методичка](https://disk.yandex.ru/i/aocJAf6d0EpR1Q)
 
 ### Условные знаки
 
@@ -32,19 +37,25 @@ subtitle: курс для факультета почвоведения
 
 [Варианты](https://disk.yandex.ru/d/4Tz08PBeMEjvyA)
 
-[Условные знаки масштаба 1:10 000](https://disk.yandex.ru/i/MKqsakFNrU7j1w)
+[Условные знаки масштаба 1:10 000](https://disk.yandex.ru/i/3QUa7ZoyDg8jVw)
+
+[Методичка](https://disk.yandex.ru/i/3QUa7ZoyDg8jVw)
+
+### Способы изображения
+
+[Бланк]()
+
+[Варианты]()
 
 ### Теодолитный ход
-
-[Методичка](https://disk.yandex.ru/i/5iOUD4Obv1gWZg)
 
 [Бланк](https://disk.yandex.ru/i/PG-2DT8rWC3mcA)
 
 [Варианты](https://disk.yandex.ru/d/lxFuDTGtuTM5Dg)
 
-### Тахеометрия
+[Методичка](https://disk.yandex.ru/d/1o7doJBel0FefQ)
 
-[Методичка](https://disk.yandex.ru/i/sReMjJrSl2awKg)
+### Тахеометрия
 
 [Варианты](https://disk.yandex.ru/d/z0XRd24szZi45g)
 
@@ -52,9 +63,9 @@ subtitle: курс для факультета почвоведения
 
 [Образец оформления рамки](https://disk.yandex.ru/i/N62VAxi2Tttn-Q)
 
-### Дешифрирование
+[Методичка](https://disk.yandex.ru/i/47iJ0OqVkDW_Pw)
 
-[Методичка](https://disk.yandex.ru/i/IBH1V1RewSqgFg)
+### Дешифрирование
 
 [Бланк](https://disk.yandex.ru/i/x5atjx5eSHcTGw)
 
@@ -63,6 +74,8 @@ subtitle: курс для факультета почвоведения
 [Варианты Петровск](https://disk.yandex.ru/d/-sRc7QA8lc8QMg)
 
 [Варианты Тула](https://disk.yandex.ru/d/Mu3s_cC_o9qd9A)
+
+[Методичка](https://disk.yandex.ru/i/IBH1V1RewSqgFg)
 
 ### QGIS
 
