@@ -157,7 +157,7 @@ export const footerData = {
     {
       ariaLabel: 'Github',
       icon: 'tabler:brand-github',
-      href: 'https://github.com/cartomsu/karta',
+      href: 'https://github.com/cartomsu',
     },
   ],
   footNote: `© ${new Date().getFullYear()} Кафедра картографии и геоинформатики`,
