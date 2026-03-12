@@ -79,7 +79,7 @@ subtitle: курс для факультета почвоведения
 
 ### QGIS
 
-[Самостоятельное задание в QGIS](https://disk.yandex.ru/i/2NhLG2M3D1xjxA)
+[Самостоятельное задание в QGIS](https://disk.yandex.ru/i/ymIyxZUkkMVa6g)
 
 [Записи с факультативов прошлых лет](https://www.youtube.com/playlist?list=PLqkWDPbqO3be5zeNwHuyRZAAyp05H94oD)
 
