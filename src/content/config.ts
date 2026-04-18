@@ -117,6 +117,7 @@ const telegramCollection = defineCollection({
       return messages
     } catch (error) {
       console.error('An error occurred during fetch:', error)
+      return []
     }
   },
   schema: z.object({
