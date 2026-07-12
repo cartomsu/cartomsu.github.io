@@ -1,0 +1,36 @@
+---
+import Conference from '~/components/Conference.astro'
+import MarkdownLayout from '~/layouts/MarkdownLayout.astro'
+
+import Papa from 'papaparse'
+
+const r = await fetch(
+  'https://docs.google.com/spreadsheets/d/1ikKX4jyo6o9xAxFmNT-r3uWuQOQqk0u0HT7a4CqUvwQ/export?format=csv'
+)
+const t = await r.text()
+const csv = Papa.parse(t, {
+  header: true,
+  transform: (value, columnName) => {
+    if ((columnName === 'Дедлайн' || columnName === 'Дата') && value) {
+      return new Date(value)
+    }
+    return value
+  },
+})
+const conferences = csv.data
+const openConferences = conferences.filter((c) => c.Дедлайн >= new Date())
+const closedConferences = conferences.filter((c) => c.Дедлайн < new Date() && c.Дата > new Date())
+const pastConferences = conferences.filter((c) => c.Дата < new Date())
+---
+
+<MarkdownLayout frontmatter={{ title: 'Конференции' }}>
+  <h2>Предстоящие</h2>
+  <h3>Регистрация открыта</h3>
+  {openConferences.map((c) => <Conference conference={c} />)}
+
+  <h3>Регистрация закрыта</h3>
+  {closedConferences.map((c) => <Conference conference={c} />)}
+
+  <h2>Прошедшие</h2>
+  {pastConferences.map((c) => <Conference conference={c} />)}
+</MarkdownLayout>

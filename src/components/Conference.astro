@@ -1,0 +1,21 @@
+---
+const { conference } = Astro.props
+---
+
+<h4>{conference.Название}</h4>
+{
+  conference.Дедлайн >= new Date() && (
+    <p>
+      Регистрация до {conference.Дедлайн.toLocaleDateString('ru', { month: 'long', day: 'numeric' })},{' '}
+      {conference.Дедлайн.toLocaleDateString('ru', { weekday: 'long' })}
+    </p>
+  )
+}
+{
+  conference.Сайт && (
+    <a href={conference.Сайт} target="_blank">
+      На сайт конференции
+    </a>
+  )
+}
+{conference.Описание && <p>{conference.Описание}</p>}
