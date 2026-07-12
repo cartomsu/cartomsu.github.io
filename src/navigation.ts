@@ -1,65 +1,71 @@
 import { getPermalink } from './utils/permalinks'
 
+const aboutLinks = [
+  {
+    text: 'История',
+    href: getPermalink('/history'),
+  },
+  {
+    text: 'Структура',
+    href: getPermalink('/structure'),
+  },
+  {
+    text: 'Руководство',
+    href: getPermalink('/management'),
+  },
+  {
+    text: 'Сотрудники',
+    href: getPermalink('/people'),
+  },
+  {
+    text: 'С нами работали',
+    href: getPermalink('/retired'),
+  },
+]
+
+const educationLinks = [
+  {
+    text: 'Учебный план',
+    href: getPermalink('/curriculum'),
+  },
+  {
+    text: 'Курсы',
+    href: getPermalink('/courses'),
+  },
+  {
+    text: 'Практики',
+    href: getPermalink('/practice'),
+  },
+  {
+    text: 'Просвещение',
+    href: getPermalink('/philanthropy'),
+  },
+  {
+    text: 'Учебники и пособия',
+    href: getPermalink('/books'),
+  },
+]
+
+const scienceLinks = [
+  {
+    text: 'Конференции',
+    href: getPermalink('/conferences'),
+  },
+]
+
 export const headerData = {
   links: [
     {
       text: 'О кафедре',
-      links: [
-        {
-          text: 'История',
-          href: getPermalink('/history'),
-        },
-        {
-          text: 'Структура',
-          href: getPermalink('/structure'),
-        },
-      ],
-    },
-    {
-      text: 'Наши люди',
-      links: [
-        {
-          text: 'Сотрудники',
-          href: getPermalink('/people'),
-        },
-        {
-          text: 'Руководство',
-          href: getPermalink('/management'),
-        },
-        {
-          text: 'С нами работали',
-          href: getPermalink('/retired'),
-        },
-        // {
-        //   text: 'Студенты',
-        //   href: getPermalink('/students'),
-        // },
-      ],
+      links: aboutLinks,
     },
     {
       text: 'Образование',
-      links: [
-        {
-          text: 'Учебный план',
-          href: getPermalink('/curriculum'),
-        },
-        {
-          text: 'Курсы',
-          href: getPermalink('/courses'),
-        },
-        {
-          text: 'Практики',
-          href: getPermalink('/practice'),
-        },
-        {
-          text: 'Просвещение',
-          href: getPermalink('/philanthropy'),
-        },
-        {
-          text: 'Учебники и пособия',
-          href: getPermalink('/books'),
-        },
-      ],
+      links: educationLinks,
+    },
+    {
+      text: 'Наука',
+      links: scienceLinks,
     },
     {
       text: 'Новости',
@@ -77,63 +83,15 @@ export const footerData = {
   links: [
     {
       title: 'О кафедре',
-      links: [
-        {
-          text: 'История',
-          href: getPermalink('/history'),
-        },
-        {
-          text: 'Структура',
-          href: getPermalink('/structure'),
-        },
-      ],
-    },
-    {
-      title: 'Наши люди',
-      links: [
-        {
-          text: 'Сотрудники',
-          href: getPermalink('/people'),
-        },
-        {
-          text: 'Руководство',
-          href: getPermalink('/management'),
-        },
-
-        {
-          text: 'С нами работали',
-          href: getPermalink('/retired'),
-        },
-        // {
-        //   text: 'Студенты',
-        //   href: getPermalink('/students'),
-        // },
-      ],
+      links: aboutLinks,
     },
     {
       title: 'Образование',
-      links: [
-        {
-          text: 'Учебный план',
-          href: getPermalink('/curriculum'),
-        },
-        {
-          text: 'Курсы',
-          href: getPermalink('/courses'),
-        },
-        {
-          text: 'Практики',
-          href: getPermalink('/practice'),
-        },
-        {
-          text: 'Просвещение',
-          href: getPermalink('/philanthropy'),
-        },
-        {
-          text: 'Учебники и пособия',
-          href: getPermalink('/books'),
-        },
-      ],
+      links: educationLinks,
+    },
+    {
+      title: 'Наука',
+      links: scienceLinks,
     },
     {
       title: 'Университет',
